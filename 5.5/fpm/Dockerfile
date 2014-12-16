@@ -23,5 +23,10 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-install session \
     && docker-php-ext-install mbstring
 
-CMD ["php-fpm"]
+COPY docker-entrypoint.sh /entrypoint.sh
 
+RUN ["chmod", "a+x", "/entrypoint.sh"]
+
+ENTRYPOINT ["/entrypoint.sh"]
+
+CMD ["php-fpm"]
