@@ -10,3 +10,7 @@ There's an [automated build repository](https://registry.hub.docker.com/u/aaronj
 ```shell
 docker pull aaronjan/php-armed:5.5-fpm
 ```
+
+##TODO
+
+1.Add Imagick extension
