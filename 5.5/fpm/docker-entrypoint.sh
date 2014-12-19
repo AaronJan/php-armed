@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Copy environment variables to PHP
-# env | grep MARIADB >> /etc/environment
+# Write whatever you like!
+
 
 exec "$@"
