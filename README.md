@@ -15,4 +15,4 @@ docker pull aaronjan/php-armed:5.5-fpm
 
 1.Add Imagick extension
 
-2.Jpeg in GD is unusable for now, need to fix it
+~~2.Jpeg in GD is unusable for now, need to fix it~~
