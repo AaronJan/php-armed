@@ -1,4 +1,4 @@
-FROM php:5.5.19-fpm
+FROM php:5.5-fpm
 
 MAINTAINER Aaron Jan <https://github.com/AaronJan/php-armed>
 
